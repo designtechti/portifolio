@@ -31,7 +31,7 @@
 					<li><a href="index.html">Início</a></li>
 					<li><a href="sobre.html">Sobre</a></li>
 					<li><a href="portifolio.html">Portifólio</a></li>
-					<li><a href="blog.html">Blog</a></li>
+					<li><a href="form.html">Contato</a></li>
 				</ul>
 			</nav>
 
@@ -95,7 +95,7 @@
 						<header class="align-center">
 							<h2>DESIGN TECH TI</h2>
 							<p>Design & Tecnologia em Um Só Lugar!</p>
-							<h2>Notícias & Curiosidades</h2>
+							<h2>Faça um Orçamento!</h2>
 						</header>
 					</div>
 				</section>		
@@ -128,56 +128,35 @@
 							</ul>
 						</section>	
 					</div>					
+
+					<br><br>
 			
-					<div class="artigo box">
-						<div class="image fit zoom">
-							<img src="images/sublime.jpg" alt="" class="img-responsive" /><br><br>
+					<section class="sessao-orcamento" id="orcamento">
+						<div class="orcamento-wrapper">
+							<form>
+								<label for="qtde">Quantidade de Páginas</label>
+								<input type="number" min="1" name="qtde" id="qtde">
+								<br><br>
+								<label for="db">Preciso de um Banco de Dados</label>
+								<input type="checkbox" name="db" id="db">
+								<label>Layout</label>
+								<div class="group-layout">
+									<div>
+										<input type="radio" name="layout" id="layout-sim">
+										<label for="layout-sim">Preciso de um layout</label>
+									</div>
+								<div>
+									<input type="radio" name="layout" id="layout-nao">
+									<label for="layout-nao">Já tenho um layout</label>
+								</div>
+								<label for="prazo">Prazo</label>
+								<input type="range" name="prazo" id="prazo" min="1" max="10">
+								<label id="preco">R$ 0,00</label>
+								<button class="btn btn-orcamento" type="submit">Enviar</button>
+							</form>
 						</div>
-						<div class="content">
-							<header class="align-center">
-							<p>Notícias & curiosidades sobre tecnologia</p>
-							<h2>Sublime Text: O queridinho dos programadores</h2>
-							</header>
-							<p>O que faz um profissional importante é seu conhecimento sobre as diversas áreas em que ele atua. Isso serve para qualquer profissional, do lixeiro ao alto executivo. Mas um outro fator importante a ser considerado são as ferramentas que o profissional utiliza. Já imaginou o quanto sofre um borracheiro sem um macaco? Profissional competente com as ferramentas certas é o primeiro passo para qualquer negócio ter sucesso.</p>
-							<footer class="align-center">
-							<a href="#" class="button alt">Leia Mais</a>
-							</footer>
-						</div>				
-					</div>
-		
-					<div class="artigo box">
-						<div class="image fit zoom">
-							<img src="images/wireframes.jpg" alt="" class="img-responsive" /><br><br>
-						</div>
-						<div class="content">
-							<header class="align-center">
-							<p>Notícias & curiosidades sobre tecnologia</p>
-							<h2>UX e acessibilidade ao navegar na web</h2>
-							</header>
-							<p>Saiba como um deficiente visual consegue navegar nas suas redes sociais, sites de notícias, aplicativos e programas de computador e como desenvolvedores de softwares e web designers ajudam a melhorar o acesso a tecnologia. </p>
-								<footer class="align-center">
-									<a href="#" class="button alt">Leia Mais</a>
-							</footer>
-						</div>				
-					</div>
-		
-					<div class="artigo box">
-						<div class="image fit zoom">
-							<img src="images/iot.jpg" alt="" class="img-responsive" /><br><br>
-						</div>
-						<div class="content">
-							<header class="align-center">
-							<p>Notícias & curiosidades sobre tecnologia</p>
-							<h2>IOT - O futuro da humanidade</h2>
-							</header>
-							<p>Entenda como a chamada Internet Das Coisas está mudando o conceito de tecnologia e como isto pode facilitar a nossa vida, trazendo mais conforto e modernidade no cotidiano. </p>
-								<footer class="align-center">
-									<a href="#" class="button alt">Leia Mais</a>
-							</footer>
-						</div>
-						</div>
-					</div>
-				</section>
+					  </section>
+						
 			</div>
 
 			<br><br>

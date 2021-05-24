@@ -176,6 +176,17 @@
 		margin-bottom: -5.0px;
     }
 
+	#orcamento {
+		background-color: #fff;
+		box-shadow: #1E90FF 3px 3px 3px;
+		width: 70%;
+		margin: 20px;
+		position: relative;
+		top: -660px;
+		padding: 50px;
+		float: right;
+	}
+
 /* Containers */
 
 	.container {
