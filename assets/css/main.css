@@ -4630,3 +4630,8 @@
 	margin-left: 5px;
 	display: inline-block;
 }
+
+[hidden] {
+	display: none !important;
+	/*visibility: hidden;*/
+}
