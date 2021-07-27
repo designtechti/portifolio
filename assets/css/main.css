@@ -111,7 +111,7 @@
 		float: left;
 		width: 25%;
 		margin: 20px;
-		display: inline-block;
+		display: block;
 		border-radius: 7px 7px 0 0;
 	}
 
@@ -167,7 +167,7 @@
 		box-shadow: 3px 3px 3px 3px #3CC3FA;
 		font-weight: bolder;
 		padding: 30px;
-		display: inline-block;
+		display: block;
 		float: right;
 	}
 
@@ -3925,7 +3925,7 @@
 			.zoom img {
 				max-width: 100%;
 				-moz-transition: all 0.3s;
-				-webkit-transition: all 0.3s
+				-webkit-transition: all 0.3s;
 				transition: all 0.3s;
 				text-shadow: 0 0 20px #ff005b;
 			}
@@ -4234,7 +4234,7 @@
 			border: 0;
 			color: #999999;
 			cursor: pointer;
-			display: block;
+			display: inline-block;
 			height: 3.25rem;
 			line-height: 3.25rem;
 			padding-right: 1.25rem;
