@@ -11,7 +11,7 @@
     border-image-slice: 1;
     border-radius: 0em 0em 1em 0em; 
     width: 90%;
-    height: 350px; 
+    height: 280px; 
     background-color: rgba(169, 169, 169, 0.8);
 }
 
@@ -30,7 +30,7 @@
     #assinatura > .avatar {
             margin: 15px;
             width: 20%;
-            display: inline-block;
+            display: block;
             float: left;
             border-radius: 50%;
             border: 3px solid #0ff;
