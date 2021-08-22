@@ -4007,7 +4007,7 @@
 		background: rgba(0, 0, 0, 0.975);
 		color: #a6a6a6;
 		cursor: default;
-		/*height: 3.25em;*/
+		padding-bottom: 5px;
 		left: 0;
 		line-height: 3.25em;
 		position: fixed;
@@ -4102,7 +4102,6 @@
 					#header > a:last-child {
 						padding-right: 1em;
 					}
-
 			}
 
 		#header.reveal {
@@ -4454,7 +4453,7 @@
 				}
 
 			.banner > article h2 {
-				font-size: 7rem;
+				font-size: 500%;
 				margin-bottom: 0;
 				color: #FFF;
 				font-weight: 300;
@@ -4634,4 +4633,8 @@
 [hidden] {
 	display: none !important;
 	/*visibility: hidden;*/
+}
+
+.artigos .box {
+	padding-bottom: 25px;
 }
