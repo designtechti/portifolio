@@ -4003,57 +4003,53 @@
 		}
 	}
 
-	#header {
-		background: rgba(0, 0, 0, 0.975);
-		color: #a6a6a6;
-		cursor: default;
-		padding-bottom: 5px;
-		left: 0;
-		line-height: 3.25em;
-		position: fixed;
-		text-align: right;
-		top: 0;
-		width: 100%;
-		z-index: 10001;
-	}
+#header {
+    background: rgba(0, 0, 0, 0.975);
+    color: #a6a6a6;
+    cursor: default;
+    /* height: 3.25em; */
+    left: 0;
+    line-height: 3.25em;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+    justify-content: space-between;
+    display: flex;
+}
 
-		#header > .logo {
-			display: inline-block;
-			left: 1.25em;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
-			position: absolute;
-			top: 0;
-		}
+    /* #header > .logo {
+            display: inline-block;
+            left: 1.25em;
+            line-height: inherit;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 0;
+        } */
 
-			#header > .logo a {
-				font-size: 1.25em;
-				color: #FFF;
-				text-decoration: none;
-			}
+    #header > .logo a {
+        font-size: 1.25em;
+        color: #FFF;
+        text-decoration: none;
+    }
 
-				#header > .logo a:hover {
-					color: rgba(255, 255, 255, 0.65);
-				}
+        #header > .logo a:hover {
+            color: rgba(255, 255, 255, 0.65);
+        }
 
-			#header > .logo span {
-				font-weight: 400;
-				font-size: .8em;
-				color: rgba(255, 255, 255, 0.65);
-			}
-
-		#header > a {
-			-moz-transition: color 0.2s ease-in-out;
-			-webkit-transition: color 0.2s ease-in-out;
-			-ms-transition: color 0.2s ease-in-out;
-			transition: color 0.2s ease-in-out;
-			display: inline-block;
-			padding: 0 0.75em;
-			color: inherit;
-			text-decoration: none;
-			color: #FFF;
-		}
+    #header > .logo span {
+        font-weight: 400;
+        font-size: .8em;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    #header > a {
+        -moz-transition: color 0.2s ease-in-out;
+        -webkit-transition: color 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
+        color: #FFF;
+    }
 
 			#header > a:hover {
 				color: #f2f2f2;
