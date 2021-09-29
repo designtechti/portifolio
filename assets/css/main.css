@@ -191,6 +191,23 @@
 		float: right;
 	}
 
+	#blog {
+		background-color: #fff;
+		box-shadow: #1E90FF 3px 3px 3px;
+		width: 70%;
+		margin: 20px;
+		position: relative;
+		top: -660px;
+		padding: 50px;
+		float: right;
+	}
+
+		#blog > h1 {
+			font-size: 22pt; 
+			font-weight: bold; 
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+		}
+
 /* Containers */
 
 	.container {
